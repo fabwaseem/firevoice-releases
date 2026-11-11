@@ -7,11 +7,13 @@
 <p align="center">
   <b>Natural voices, made on your own computer.</b><br>
   Expressive text to speech, voice cloning and design, dialogue, dubbing, transcription, music and sound effects,
-  all running locally on your GPU.
+  all running locally on your computer.
 </p>
 
 <p align="center">
   <a href="https://github.com/fabwaseem/firevoice-releases/releases/latest"><b>Download for Windows</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/fabwaseem/firevoice-releases/releases/latest"><b>Download for Linux</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/fabwaseem/firevoice-releases/releases">All releases</a>
 </p>
@@ -43,17 +45,27 @@ Get the latest version from **[Releases](https://github.com/fabwaseem/firevoice-
 - `FireVoice_<version>_x64-setup.exe`: the installer (recommended)
 - `FireVoice_<version>_x64_en-US.msi`: the same app as an MSI package
 
+**Linux** (64-bit; Ubuntu 22.04 or newer, Debian 12, Fedora 38 and similar):
+
+- `FireVoice_<version>_amd64.AppImage`: runs on any distribution and updates itself (recommended). Make it executable
+  (`chmod +x FireVoice_*.AppImage`) and open it.
+- `FireVoice_<version>_amd64.deb`: Ubuntu, Debian, Mint, Pop!_OS (`sudo apt install ./FireVoice_*.deb`)
+- `FireVoice-<version>-1.x86_64.rpm`: Fedora, openSUSE, RHEL (`sudo dnf install ./FireVoice-*.rpm`)
+
 ## What you need
 
-- Windows 10 or 11, 64-bit
-- An NVIDIA graphics card is strongly recommended (the voice engines run on its CUDA cores)
-- An internet connection for the first start: FireVoice sets up its voice engine once (a few GB)
+- Windows 10 or 11, 64-bit, or a 64-bit Linux (see above)
+- An NVIDIA graphics card is recommended: the bigger engines need one. Without one (an AMD or Intel card, or none),
+  FireVoice runs on the processor with the engines that suit it, and the Engines page says which ones those are
+- An internet connection for the first start: FireVoice sets up its voice engine once (a few GB with an NVIDIA card,
+  much less without)
 - Free disk space for the engines you choose to install (each engine's size is shown before it downloads)
 
 ## Updates
 
 FireVoice keeps itself up to date. When you are online and a new version is out, it downloads and installs it on
-start, then opens the new version; your voices, history and settings stay as they are. Offline, it opens as usual.
+start, then opens the new version (on Linux, the AppImage updates itself; the .deb and .rpm are updated by installing the
+new package); your voices, history and settings stay as they are. Offline, it opens as usual.
 
 Every update is signed, and FireVoice refuses to install one whose signature does not match. Each release also lists
 the SHA-256 of its installers in `SHA256SUMS.txt`.
