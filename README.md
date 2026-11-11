@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/fabwaseem/firevoice-releases/releases/latest"><b>Download for Windows</b></a>
+  <a href="https://firevoice.fabwaseem.com/download/windows"><b>Download for Windows</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/fabwaseem/firevoice-releases/releases/latest"><b>Download for Linux</b></a>
+  <a href="https://firevoice.fabwaseem.com/download/linux"><b>Download for Linux</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/fabwaseem/firevoice-releases/releases">All releases</a>
 </p>
@@ -42,15 +42,15 @@
 
 Get the latest version from **[Releases](https://github.com/fabwaseem/firevoice-releases/releases/latest)**:
 
-- `FireVoice_<version>_x64-setup.exe`: the installer (recommended)
-- `FireVoice_<version>_x64_en-US.msi`: the same app as an MSI package
+- `FireVoice_<version>_x64-setup.exe`: the installer (recommended) · [download the latest](https://firevoice.fabwaseem.com/download/windows)
+- `FireVoice_<version>_x64_en-US.msi`: the same app as an MSI package · [download the latest](https://firevoice.fabwaseem.com/download/windows-msi)
 
 **Linux** (64-bit; Ubuntu 22.04 or newer, Debian 12, Fedora 38 and similar):
 
-- `FireVoice_<version>_amd64.AppImage`: runs on any distribution and updates itself (recommended). Make it executable
+- `FireVoice_<version>_amd64.AppImage`: runs on any distribution and updates itself (recommended) · [download the latest](https://firevoice.fabwaseem.com/download/linux). Make it executable
   (`chmod +x FireVoice_*.AppImage`) and open it.
-- `FireVoice_<version>_amd64.deb`: Ubuntu, Debian, Mint, Pop!_OS (`sudo apt install ./FireVoice_*.deb`)
-- `FireVoice-<version>-1.x86_64.rpm`: Fedora, openSUSE, RHEL (`sudo dnf install ./FireVoice-*.rpm`)
+- `FireVoice_<version>_amd64.deb` · [download the latest](https://firevoice.fabwaseem.com/download/linux-deb): Ubuntu, Debian, Mint, Pop!_OS (`sudo apt install ./FireVoice_*.deb`)
+- `FireVoice-<version>-1.x86_64.rpm` · [download the latest](https://firevoice.fabwaseem.com/download/linux-rpm): Fedora, openSUSE, RHEL (`sudo dnf install ./FireVoice-*.rpm`)
 
 ## What you need
 
